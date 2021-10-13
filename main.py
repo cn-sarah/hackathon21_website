@@ -1,11 +1,7 @@
 # Dependencies
 
-from flask import Flask, request, render_template, redirect
+from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
-import pandas as pd
-from datetime import datetime
-from dateutil import parser
-import json
 
 # Flask App
 app = Flask(__name__)
