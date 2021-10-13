@@ -136,23 +136,6 @@ li {
     line-height: 60px;
 }
 
-.thm-btn-dash {
-    margin: 30px;
-    display: inline-block;
-    vertical-align: middle;
-    border: none;
-    outline: none;
-    margin-left: 600px;
-    background-color: rgb(0,200,0);
-    font-size: 16px;
-    color: #ffffff;
-    font-weight: 700;
-    padding: 16.5px 60px;
-    border-radius: 33.5px;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
-
 
 .thm-btn {
     display: inline-block;
