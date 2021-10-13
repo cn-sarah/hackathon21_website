@@ -524,7 +524,8 @@ li {
     display: block;
     max-width: 190px;
     width: 100%;
-    padding: 51px 0;
+    padding: 25px 0;
+    margin-left: -140px;
 }
 
 .header-navigation.original .container {
@@ -3114,7 +3115,7 @@ li {
     display: block;
     padding: 295px 0 90px;
     background: #ffffff;
-    margin-top: -168px;
+    margin-top: 0px;
     z-index: 1;
 }
 
