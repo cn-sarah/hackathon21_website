@@ -6059,7 +6059,7 @@ li {
 }
 
 .campaign-details__summary-img-box-single img {
-    width: 100%;
+    width: 300%;
     border-radius: var(--thm-border-radius);
 }
 

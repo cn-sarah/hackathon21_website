@@ -29,17 +29,15 @@ def explore():
 def donate():
     return render_template('donate.html')
 
-@app.route('/details', methods=['GET', 'POST'])
-@app.route('/details.html', methods=['GET', 'POST'])
-def details():
-    return render_template('campaign-details.html')
-
 @app.route('/campaigns', methods=['GET', 'POST'])
 @app.route('/campaigns.html', methods=['GET', 'POST'])
-@app.route('/campaign-details.html', methods=['GET', 'POST'])
 def campaigns():
     return render_template('campaigns.html')
 
+@app.route('/campaign-details.html', methods=['GET', 'POST'])
+@app.route('/campaign-details', methods=['GET', 'POST'])
+def campaign_details():
+    return render_template('/campaign-details.html')
 if __name__ == '__main__':
     # add ssl certificate
     app.run(ssl_context='adhoc')
