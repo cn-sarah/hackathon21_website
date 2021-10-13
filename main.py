@@ -14,10 +14,10 @@ Bootstrap(app)
 def index():
     return render_template('index.html')
 
-@app.route('/maps', methods=['GET', 'POST'])
-@app.route('/maps.html', methods=['GET', 'POST'])
+@app.route('/dash_board', methods=['GET', 'POST'])
+@app.route('/dash_board.html', methods=['GET', 'POST'])
 def maps():
-    return render_template('maps.html')
+    return render_template('dash_board.html')
 
 @app.route('/explore', methods=['GET', 'POST'])
 @app.route('/explore.html', methods=['GET', 'POST'])
