@@ -44,6 +44,39 @@
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="static/css/responsive.css">
 
+<style type="text/css">
+
+.img-grid{
+  width: 40%;
+  float:left;
+  height:400px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 80px;
+}
+
+.img-grid img{
+  width :100%;
+  height:400px;
+}
+.caption{
+  display :none;
+}
+
+.img-grid:hover .caption{
+  text-align: center;
+  display:block;
+  background-color: #949191;
+  color: #fff;
+  font-size:16px;
+  font-weight: bold;
+  margin-top: -70px;
+  padding: 10px;
+  -webkit-filter: grayscale(50);
+filter: grayscale(50);
+}
+</style>
+
 </head>
 
 <body>
@@ -137,144 +170,44 @@
 
 
         
-        <div style = "margin: 30px; display: inline-block; vertical-align: middle; border: none; outline: none; margin-left: 600px; background-color: rgb(10,200,0);font-size: 16px;color: black;font-weight: 700;padding: 16.5px 60px;border-radius: 33.5px;-webkit-transition: all 0.4s ease;transition: all 0.4s ease;"> <a href="https://4712c5d1.us1a.app.preset.io:443/r/21">Preset Dashboard</a></div>
+        <div style = "margin: 30px; display: inline-block; vertical-align: middle; border: none; outline: none; margin-left: 600px; background-color: rgb(10,200,0);font-size: 16px;color: black;font-weight: 700;padding: 16.5px 60px;border-radius: 33.5px;-webkit-transition: all 0.4s ease;transition: all 0.4s ease;"> <a href="https://4712c5d1.us1a.app.preset.io:443/r/21", target="popup" 
+            onclick="window.open('https://4712c5d1.us1a.app.preset.io:443/r/16','popup',width=600,height=600');"">Preset Dashboard</a></div>
 
         <div style = "position:relative; left:450px; top:2px; font-size: 12px; color: rgb(150,0,0);">
          Note : Please contact Sarah_Uludag@condenast.com to get access of Preset dashboard.
       </div>
 
-        <!--Dashboard Details Start-->
-        <section class="campaign-details">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-7">
-                        <div class="campaign-details__left-bar">
-                            <div class="campaign-details__text-box">
-                                <h1>Dashbord Charts Description</h1>
-                                <br>
-                                </div>
-                                <div class="campaign-details__text-box">
-                                <h3>Average Internet Speed</h3>
-                                </div>
-                                <div class="campaign-details__summary-img-box">
-                                    <div class="row">
-                                        <div class="col-xl-6 col-lg-6">
-                                            <img src="static/images/dashboards/internet-speed-newyork.jpg" alt="" height="300" width="600">
-                                        </div>
-                                    </div>
-                                </div>
-                                <p class="campaign-details__text">This Chart provides global fixed broadband and mobile (cellular) network performance metrics in zoom level 16 web mercator tiles (approximately 610.8 meters by 610.8 meters at the equator). Data is provided in both Shapefile format as well as Apache Parquet with geometries represented in Well Known Text (WKT) projected in EPSG:4326. Download speed, upload speed, and latency are collected via the Speedtest by Ookla applications for Android and iOS and averaged for each tile. Measurements are filtered to results containing GPS-quality location accuracy.</p>
+<section class="campaign-details">
+    <div class="container">
+        <div class="row">
 
-                                <br><br>
-                            </div>
-                                <div class="campaign-details__text-box">
-                                <h3>Household Computer Access Ratio</h3>
-                                <div class="campaign-details__summary-img-box">
-                                    <div class="row">
-                                        <div class="col-xl-6 col-lg-6">
-                                            <img src="static/images/dashboards/household-computer-access-ratio-2021-10-13T19-19-41.582Z.jpg" alt="" height="400" width="700">
-                                        </div>
-                                    </div>
-                                <p class="campaign-details__text">This chart gives the percentage number of households that have internet and computer accessibility per county as part of the US census.
-                            <ul>
-                            <li>Total household</li>
-                            <li>household having one or more types of computer devices(desktop/cell phone/tablet)</li>
-                            <li>household income</li>
-                            </ul></p>
-                            </div></div>
-
-                            <div class="campaign-details__text-box">
-                                <h3>Household Internet Accessibility Ratio</h3>
-                                </div>
-                                <div class="campaign-details__summary-img-box">
-                                    <div class="row">
-                                        <div class="col-xl-6 col-lg-6">
-                                            <img src="static/images/dashboards/household-internet-accessibility-ratio-2021-10-13T19-19-46.195Z.jpg" alt="" height="400" width="700">
-                                        </div>
-                                    </div>
-                                </div>
-                                <p class="campaign-details__text">This chart gives the percentage number of households that have internet and computer accessibility per county as part of the US census.
-                            <ul>
-                            <li>Total household</li>
-                            <li>household having internet subscription(dial-up/broadband)</li>
-                            <li>household income</li>
-                            </ul></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="campaign-details">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-7">
-                        <div class="campaign-details__left-bar">
-                            <div class="campaign-details__text-box">
-                                <h3>Access Ratio to Online Learning Tools</h3>
-                                </div>
-                                <div class="campaign-details__summary-img-box">
-                                    <div class="row">
-                                        <div class="col-xl-6 col-lg-6">
-                                            <img src="static/images/dashboards/access-ratio-to-online-learning-tools-2021-10-13T19-19-57.841Z.jpg" alt="" height="300" width="600">
-                                        </div>
-                                    </div>
-                                </div>
-                                <p class="campaign-details__text">This chart includes the Elearning tools access throughout the US from 2018 to 2020. This gives us insight upon the most impactful states within US after all the learning activities went online.</p>
-
-                                <br>
-
-                            <div class="campaign-details__text-box">
-                                <h3>Top10 states with least elearning access percentage</h3>
-                                </div>
-                                <div class="campaign-details__summary-img-box">
-                                    <div class="row">
-                                        <div class="col-xl-6 col-lg-6">
-                                            <img src="static/images/dashboards/top-10-states-with-least-elearning-access-percentage-2021-10-13T19-20-26.293Z.jpg" alt="" height="400" width="700">
-                                        </div>
-                                    </div>
-                                </div>
-                                <p class="campaign-details__text">States where Onlive learning platform access is minimum and most affected due to COVID-19 eduction impact.</p></div></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<div class="transbox img-grid">
+    <img src="static/images/dashboards/internet-speed-newyork.jpg" />
+    <div  class="caption">
+            <p>Average Internet Speed</p>
+    </div>
+</div>
+<div class="transbox img-grid">
+    <img src="static/images/dashboards/household-computer-access-ratio-2021-10-13T19-19-41.582Z.jpg" />
+    <div class="caption">
+            <p>Household Computer Access Ratio</p>
+    </div>
+</div>
+<div class="transbox img-grid">
+    <img src="static/images/dashboards/non-profit-organizations-2021-10-13T20-41-34.183Z.jpg" />
+    <div  class="caption">
+            <p>Non Profit Organizations Map</p>
+    </div>
+</div>
+<div class="transbox img-grid">
+    <img src="static/images/dashboards/access-ratio-to-online-learning-tools-2021-10-13T19-19-57.841Z.jpg" />
+    <div  class="caption">
+            <p>Access Ratio to Online Learning Tools</p>
+    </div>
+</div>
 
 
-
-
-
-        <!-- <br><br><br><br>
-
-		<img src="static/images/dashboards/internet-speed-newyork.jpg" alt="" width="900" height="600">
-		<figcaption>Fig.1 internet speed in newyork state</figcaption>
-        <div class="main-nav__left-one">
-        	<a href="internet speed dashboard" 
-			target="popup" 
-			onclick="window.open('https://4712c5d1.us1a.app.preset.io:443/r/16','popup','width=600,height=600'); return false;">Dashboard</a>
-    	</div>
-        <br>
-        <img src="static/images/dashboards/elearning-access-2018to2020.jpg" alt="" width="900" height="600">
-        <figcaption>Fig.2 - Elearning access in US from 2018 to 2020</figcaption>
-
-        <div class="main-nav__left-one">
-        	<a href="Elearning access in US" 
-			target="popup" 
-			onclick="window.open('https://4712c5d1.us1a.app.preset.io:443/r/17','popup','width=600,height=600'); return false;">Dashboard</a>
-    	</div>
-
-    	<br><br> -->
-
-
-
-
-
-
-
-
-
+</div></div></section>
 
 
 
